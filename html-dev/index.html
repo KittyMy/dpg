@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DPG HTML test</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <h1>Hello</h1>
+    <form class="my_form">
+        <div class="wrapper">
+            <div class="form_title">For business enquiries please use the form below</div>
+            <span class="note req">Required</span>
+            <p class="name">
+                <span class="note">Name</span>
+                <input type="text" required>
+            </p>
+            <p class="company">
+                <span class="note">Company</span>
+                <input type="text" required>
+            </p>
+            <p class="e_mail">
+                <span class="note">E-mail</span>
+                <input type="email" required>
+            </p>
+            <p class="phone">
+                <span class="note">Phone</span>
+                <input type="number">
+            </p>
+            <p class="subject">
+                <span class="note">Subject</span>
+                <input type="text">
+            </p>
+            <p class="message">
+                <span class="note">Message</span>
+                <textarea cols="299" maxlength="50" rows="2" wrap="hard" required></textarea>
+            </p>
+
+            <div class="accept_check">
+                <input type="checkbox" class="custom_check" id="accept" required>
+                <label for="accept"></label>
+                <div class="accept">
+                    I accept <a href="#">Terms and Privacy Policy</a>
+                </div>
+            </div>
+            
+            <input type="submit" value="Send">
+        </div>
+    </form>
+  
+</body>
+</html>
